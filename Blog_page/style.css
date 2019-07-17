@@ -1,0 +1,15 @@
+body {
+    background-color: #bcd982;
+}
+
+#container {
+    background-color: whitesmoke;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 10px solid rebeccapurple;
+}
+
+article {
+    border: 2px dotted orange;
+}
