@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://www.picawall.com/wp-content/uploads/2018/04/11242560-1200x900.jpg)
+}
+
+@media (min-width: 576px) { 
+    body {
+        background-image: url(https://www.picawall.com/wp-content/uploads/2018/04/11242560-1200x900.jpg)
+
+    }
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    body {
+        background-image: url(https://www.picawall.com/wp-content/uploads/2018/04/11242560-1200x900.jpg)
+
+    }
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    body {
+        background-image: url(https://www.picawall.com/wp-content/uploads/2018/04/11242560-1200x900.jpg)
+
+    }
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+    body {
+        background-image: url(https://www.picawall.com/wp-content/uploads/2018/04/11242560-1200x900.jpg)
+
+    }
+}
+
+.has-border {
+    background-image: linear-gradient(to right, #dc143c, #a80f2e);
+    border: 2px solid #a80f2e;
+    
+}
+
+a {
+    text-size-adjust: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px rounded #a80f2e;
+    float: right;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+#profile-pic {
+    width: 258px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
