@@ -1,5 +1,5 @@
 body {
-    background-color: #423e3d;
+    background-image: url(https://sdbhas.org/wp-content/uploads/2016/04/cropped-NGC6960-Custom.jpg)
 }
 
 
@@ -72,3 +72,30 @@ header {
      }
   }
 
+.flex-container {
+  align-self: flex-end;
+}
+
+.flex-item > div {
+  background-color: #018790;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.calc-box {
+  border-style: solid;
+  background-color: #018790;
+  text-align: right;
+  border-radius: 10px;
+  height: 75px;
+}
