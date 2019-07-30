@@ -1,3 +1,32 @@
 body {
-    background-image: url(https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA09178-1920x1200.jpg)
-}
+    background-image: url("https://cdn.wallpapersafari.com/84/88/txd693.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+  }
+
+  footer {
+    display: grid;
+    background-color: gray;
+    grid-auto-columns: auto;
+  }
+
+  #contact {
+    box-sizing: border-box;
+    width: 50%;
+    border: 550px solid red;
+    text-align: left
+  }
+
+  #info {
+    box-sizing: border-box;
+    width: 50%;
+    border: 550px solid red;
+    text-align: right
+  }
+
+  #other {
+    box-sizing: border-box;
+    width: 50%;
+    border: 5px solid red;
+    text-align: center
+  }
