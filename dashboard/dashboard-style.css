@@ -99,3 +99,32 @@ header {
   border-radius: 10px;
   height: 75px;
 }
+
+.media (min-width: 576px) {
+  body {
+    background-image: url(https://sdbhas.org/wp-content/uploads/2016/04/cropped-NGC6960-Custom.jpg)
+  }
+}
+
+/* Medium and up (Tablets) */
+.media (min-width: 768px) {
+  body {
+    background-image: url(https://sdbhas.org/wp-content/uploads/2016/04/cropped-NGC6960-Custom.jpg)
+
+}
+
+/* Large and up (Desktops) */
+.media (min-width: 992px) {
+  body {
+    background-image: url(https://sdbhas.org/wp-content/uploads/2016/04/cropped-NGC6960-Custom.jpg)
+  }
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+.media (min-width: 1200px) {
+  body {
+    background-image: url(https://sdbhas.org/wp-content/uploads/2016/04/cropped-NGC6960-Custom.jpg)
+  }
+
+}
