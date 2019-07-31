@@ -1,0 +1,83 @@
+body {
+    top: 50%;
+    width: 100%; 
+    display: flex;
+    background-color: #607d8b; 
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    width: 850px;
+    height: 100px;
+    border: 10px solid #ffc107;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serifl;
+    text-transform: uppercase;
+    color: #455a64;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    align-content: center;
+    height: 100px;
+    border: 10px solid #ffc107;
+    background-color: #ffffff;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 100%;
+    font-size: 18px;
+}
+
+#social-media {
+    line-height: 75px;
+    margin: 500px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+}
+
+#small-info {
+    display: flex;
+    align-items: right;
+}
+
+#box2 {
+    display: flex;
+    justify-content: center;
+}
+
+.mohawkpic {
+    border-radius: 25px;
+}
+
+#button {
+    background-color: #212121;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#social-media #button :hover {
+    background-color: #ffc107;
+    color: white;
+}

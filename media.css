@@ -1,0 +1,33 @@
+body {
+    background-color: orange;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    body {
+        background-color: green;
+    }
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+    body {
+        background-color: aqua;
+    }
+
+}
