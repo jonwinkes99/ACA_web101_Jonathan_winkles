@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    margin: 0%;
+    height: 850px;
+    width: 100%;
+}
+
+header {
+    columns: 2;
+}
+
+.c1 {
+    text-align: left;
+    color: blanchedalmond;
+    border: 5px solid blanchedalmond;
+}
+
+@media (min-width: 576px) {
+    body {
+        background-color: black;
+    }
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    body {
+        background-color: black;
+    }
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    body {
+        background-color: black;
+    }
+
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+    body {
+        background-color: black;
+    }
+
+}

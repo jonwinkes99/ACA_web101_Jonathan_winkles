@@ -44,56 +44,37 @@ header {
     font-family: 'Lacquer', sans-serif;
   }
 
-  .c1{
+.c1 {
+    background-color: #000000;
     font-family: 'Lacquer', sans-serif;
-    font-size: 65px; 
-  }
-
-  .c2 {
-    font-family: 'Lacquer', sans-serif;
-    position: relative;
-    left: 250px;
+    text-align: center; 
+    margin-bottom: 0px;
+    height: 50px;
+    text-size-adjust: 75px;
     border: 5px solid #000000;
+    width: 35%;
     border-radius: 5px;
-    background-color: #000000;
     color: #E9AFAF;
-    margin: 0px;
-    width: 65px;
-  }
-
-  .c3 {
-    font-family: 'Lacquer', sans-serif;
-    float: right;
     position: relative;
-    right: 250px;
-    top: -20px;
-    margin-bottom: 5px;
-    border: 5px solid #000000;
-    background-color: #000000;
-    color: #E9AFAF;
-  }
+    left: 33%;
+}
 
-  h2 {
-      column-count: 2;
-      height: 500px;
-      height: 50%;
-  }
+.c2 {
+    background-color: #A02C2C;
+    border: 10px solid #000000;
+    border-radius: 25px;
+    display: grid;
+    height: 100%;
+    margin: 10px;
+}
 
-  #p1 {
-      text-align: left;
-      text-indent: 25px;
-      height: 100%;
-      font-family: 'Lacquer', sans-serif;
-  }
+h1 {
+    width: 100%;
+    height: 75px;
+}
 
-  #p2 {
-    text-align: left;
-    float: right;
-    text-indent: 25px;
-    position: relative;
-    right: 30px;
-    font-family: 'Lacquer', sans-serif;
-    justify-content: center;
-    margin-bottom: 240px;
-    bottom: 25px;
-  }
+h2 {
+    height: 500px;
+    width: 100%;
+}
+

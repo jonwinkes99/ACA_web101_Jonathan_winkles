@@ -1,0 +1,77 @@
+body {
+    background-color: #C83737;
+    margin: 0%;
+    height: 850px;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #E9AFAF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lacquer', sans-serif;
+  }
+
+  .c0 #title {
+    background-color: #000000;
+    border: none;
+    color: #E9AFAF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 35px;
+    cursor: pointer;
+    font-family: 'Lacquer', sans-serif;
+    border-bottom-right-radius: 20px;
+}
+
+header {
+    columns: 2;
+}
+
+.insta {
+    background-color: #782121;
+    font-family: 'Lacquer', sans-serif;
+    text-align: center;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    color: #E9AFAF;
+}
+
+h1 {
+    column-count: 2;
+    height: 450px;
+    width: 100%;
+}
+
+.twitter {
+    font-family: 'Lacquer', sans-serif;
+    background-color: #782121;
+    text-align: center;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    color: #E9AFAF;
+}
+
+#c1{
+    text-align: left;
+    font-family: 'Lacquer', sans-serif;
+    text-indent: 35px;
+}
+
+#c2 {
+    font-family: 'Lacquer', sans-serif;
+    text-indent: 35px;
+}
+
+.c3 {
+    font-family: 'Lacquer', sans-serif;
+    text-align: center;
+    text-size-adjust: 45px;
+    background-color: #000000;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    color: #E9AFAF;
+}
