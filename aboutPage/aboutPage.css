@@ -1,0 +1,35 @@
+body {
+    background-color: #212121;
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    height: 50%;
+    background-color: #455a64;
+    border: 5px solid #607d8b;
+    border-radius: 45px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0%;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+b {
+    color: #ffffff;
+    text-size-adjust: 55px;
+}
+
+h3 {
+    columns: 3;
+    text-align: center;
+    background-color: #ffc107;
+    border-radius: 10px;
+}
