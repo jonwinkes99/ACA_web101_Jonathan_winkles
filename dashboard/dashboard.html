@@ -8,10 +8,22 @@
     <link rel="stylesheet" href="dashboard-style.css" />
 </head>
 <body>
+  <script>
+    if ("geolocation" in navigator) {
+      console.log('geolocation available')
+      navigator.geolocation.getCurrentPosition(position => {
+      console.log(position)
+      });
+} else {
+  console.log('geolocation not available')
+}
+    
+    
+  </script>
             <div class="container">
                 <header>header</header>
                 <nav>
-                    <li><a href="#">link</a></li>
+                    <li><a href="#">Whats my location</a></li>
                     <li><a href="#">link</a></li>
                     <li><a href="#">link</a></li>
                   </ul>
